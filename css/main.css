@@ -47,7 +47,7 @@ item-list__img img {
 }
 
 .write-btn {
-  background-color: #fe6f0f;
+  background-color: var(--button-primary);
   position: fixed;
   bottom: 120px;
   right: 20px;
@@ -56,4 +56,10 @@ item-list__img img {
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hober);
 }
